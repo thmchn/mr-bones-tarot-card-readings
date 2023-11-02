@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Readings from './Readings';
 import { getRandomInt } from '../deck';
-import { getReading, getTestReading, getWildRideReading, getAdvancedReading } from '../api';
+import { getReading, getWildRideReading, getAdvancedReading } from '../api';
 import Spinner from './Spinner';
 import Transform from './Transform';
 
@@ -42,7 +42,7 @@ function App() {
       'The simple mind thrives in a fallow environment.'
     ]
     setLoadingText(choices.at(getRandomInt(choices.length)));
-    getTestReading().then(response => {
+    getReading().then(response => {
       setReadings(response.reading);
       setLoadingText(null);
     }).catch(error => {
