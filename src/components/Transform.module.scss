@@ -1,0 +1,8 @@
+.transform {
+  transform: translate(47vw);
+  transition: 0.5s ease-in-out;
+}
+
+.isOpen {
+  transform: translate(-47vw);
+}

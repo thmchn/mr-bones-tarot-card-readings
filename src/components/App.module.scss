@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shalimar&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Shalimar', sans-serif;
+  font-size: 3rem;
+  color: lightgray;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: 'Caveat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: lightgray;
+  border-width: 0;
+}
+
+.heading {
+  background-image: url('../../assets/images/backgrounds/craiyon_181155_Empty_comic_book_panels_with_spooky_gothic_design.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 38rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  color: black;
+  font-size: 5rem;
+  font-weight: bolder;
+  text-shadow: 0 0 6px lightgray, 0 0 12px darkgreen;
+}
+
+.layout {
+  height: 100vh;
+  display: flex;
+}
+
+.controls {
+  flex: 1;
+  padding: 3rem;
+}
+
+.choices {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 3rem 3rem;
+}
+
+.mrBones {
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  height: 100vh;
+  width: 53vw;
+}
+
+.tarot {
+  background-image: linear-gradient(to right, transparent, 60%, black 100%), url('../../assets/images/backgrounds/craiyon_143209_Mr_Bones_Wild_Ride_skeleton_wearing_black_top_hat_tarot_card_Readings.png');
+}
+
+.spoopy {
+  background-image: linear-gradient(to right, transparent, 60%, black 100%), url('../../assets/images/backgrounds/craiyon_122555_A_skeleton_with_a_top_hat_in_a_tarot_card_reading_booth__Give_it_a_scary_vintage_carn.png');
+}
+
+.book {
+  background-image: linear-gradient(to right, transparent, 60%, black 100%), url('../../assets/images/backgrounds/craiyon_131917_vintage_carnival_poster_of_a_tarot_card_reading_skeleton_wearing_a_black_top_hat.png');
+}
+
+.advanced {
+  transform: translate(46vw);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  height: 100vh;
+  width: 47vw;
+  padding: 3rem;
+
+  textarea {
+    color: lightgray;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 30rem;
+    resize: none;
+    font-family: 'Caveat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(#000000, 0.6);
+    border: 0;
+  }
+}
+
+.showAdvanced {
+  transform: translate(46vw);
+}
+
+.skeletonCoaster {
+  background-image: linear-gradient(to left, rgba(black, 0.7), black 100%), url('../../assets/images/backgrounds/craiyon_164129_intricate_black_and_white_ink_drawing_of_a_spine_roller_coaster__white_on_black_backg.png');
+}
+
+.loading {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(#000000, 0.8);
+}
+
+.loadingSpine {
+  margin: 25vh auto;
+}
+
+.loadingText {
+  position: absolute;
+  right: 15rem;
+  bottom: 15rem;
+  left: 15rem;
+
+  p {
+    font-size: 5rem;
+    display: inline;
+    background-color: rgba(#000000, 0.9);
+  }
+}
