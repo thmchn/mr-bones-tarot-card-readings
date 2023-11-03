@@ -12,3 +12,5 @@ The fortune teller offers three different readings:
 - Install dependencies with the command `npm install`
 - Start the application with the command `npm start`
 - Open a web browser and go to `http://localhost:8080`
+
+Mr Bones' Tarot Card Readings is developed for the resolution 1920x1080, running maximized. Press F11 to maximize your browser window.
