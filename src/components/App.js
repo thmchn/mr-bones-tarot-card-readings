@@ -23,7 +23,7 @@ function App() {
     const choices = [
       'So you want the ride to end? Let\'s see what the cards foretells...',
       'The ride has only just begun... ',
-      'Are you asking for the end of the ride or the end of time?'
+      'Are you yearning for the end of the ride... or the end of time?'
     ]
     setLoadingText(choices.at(getRandomInt(choices.length)));
     getWildRideReading().then(response => {
