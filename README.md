@@ -1,5 +1,5 @@
 # What is this?
-Mr Bones' Tarot Card Reader is a simple tarot card fortune teller based on Openapi/ChatGPT. The user is welcomed by Mr Bones', famous from the ancient 4chan post about "Mr Bones` Wild Ride" (https://knowyourmeme.com/memes/mr-bones-wild-ride).
+Mr Bones' Tarot Card Reader is a simple tarot card fortune teller based on Openai/ChatGPT. The user is welcomed by Mr Bones', famous from the ancient 4chan post about "Mr Bones` Wild Ride" (https://knowyourmeme.com/memes/mr-bones-wild-ride).
 The fortune teller offers three different readings:
 1. "I want to get off Mr Bones Wild Ride": With this choice, ChatGPT is instructed to give a tarot card reading to a passenger on "Mr Bones' Wild Ride", a long and forever looping roller coaster ride in the old game "Roller Coaster Tyccon 2".
 2. "A regular reading": With this choice, ChatGPT gives a tarot card reading without any specific instructions.
